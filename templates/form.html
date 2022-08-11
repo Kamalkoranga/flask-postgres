@@ -4,6 +4,7 @@
 <head>
     <title>Personal Finance</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="shortcut icon" href="https://www.svgrepo.com/show/293548/transaction-money.svg" type="image/x-icon">
 </head>
 
 <body>
@@ -32,6 +33,7 @@
             <input type="submit" class="formSubmit formInput" value="Add transaction">
         </div>
     </form>
+    <a href="{{ url_for('transactions') }}" class="link">View Transactions</a>
 </body>
 
 </html>
